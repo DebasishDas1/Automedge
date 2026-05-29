@@ -1,7 +1,9 @@
-import React from "react";
+"use client";
 
-const page = () => {
-  return <div>page</div>;
-};
+import { useSocket } from "@/hooks/useSocket";
 
-export default page;
+export default function InboxPage() {
+  useSocket("agent-123"); // temporary hardcoded user
+
+  return <div>Inbox running...</div>;
+}

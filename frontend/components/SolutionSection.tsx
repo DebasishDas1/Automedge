@@ -12,10 +12,7 @@ type SolutionSectionProps = {
 
 export function SolutionSection({ solutions }: SolutionSectionProps) {
   return (
-    <section
-      id="solution"
-      className="py-20 md:py-28 px-4 md:px-8 bg-muted/30 scroll-mt-24"
-    >
+    <section id="solution" className="py-20 md:py-28 px-4 md:px-8 scroll-mt-24">
       <div className="max-w-7xl mx-auto">
         {/* Header */}
         <div className="text-center mb-16 md:mb-20">
